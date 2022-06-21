@@ -7,26 +7,26 @@ public class Grocery {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        double a = 2.14, e = 3.67, d = 1.11, m = 0.95, p = 5.0;
-        int ar, el, dom, mu, pa;
-        double toplam;
+        double p = 2.14, a = 3.67, t = 1.11, b = 0.95, e = 5.0;
+        int pear, apple, tom, banana, eggp;
+        double total;
 
         // Kullanıcıdan girişleri aldıktan sonra formül yazıp toplamı buluyoruz.
 
         System.out.println();
         System.out.print("Kac Kilo Armut Aldiniz? : ");
-        ar = input.nextInt();
+        pear = input.nextInt();
         System.out.print("Kac Kilo Elma Aldiniz? : ");
-        el = input.nextInt();
+        apple = input.nextInt();
         System.out.print("Kac Kilo Domates Aldiniz? : ");
-        dom = input.nextInt();
+        tom = input.nextInt();
         System.out.print("Kac Kilo Muz Aldiniz? : ");
-        mu = input.nextInt();
+        banana = input.nextInt();
         System.out.print("Kac Kilo Patlican Aldiniz? : ");
-        pa = input.nextInt();
+        eggp = input.nextInt();
         System.out.println();
 
-        toplam = ((a * ar) + (e * el) + (d * dom) + (m * mu) + (p * pa));
-        System.out.println("Toplam Odeyeceginiz Tutar : " + toplam + "TL");
+        total = ((p * pear) + (a * apple) + (t * tom) + (b * banana) + (e * eggp));
+        System.out.println("Toplam Odeyeceginiz Tutar : " + total + " TL");
     }
 }
